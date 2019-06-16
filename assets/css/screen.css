@@ -3,7 +3,6 @@
 
 /* @import "global.css"; */
 
-
 /* 2. Layout - Page building blocks
 /* ---------------------------------------------------------- */
 
@@ -51,7 +50,7 @@
 .header__title a {
     color: #1c2437;
     /* font-weight: bold; */
-    font-family: 'Source Serif Pro', serif;
+    font-family: "Source Serif Pro", serif;
     /* text-transform: uppercase; */
     /* letter-spacing: 0.02rem; */
 }
@@ -63,7 +62,7 @@
 }
 .header__link {
     margin-left: 2.1rem;
-    font-family: 'Avenir', 'Open Sans', sans-serif;
+    font-family: "Avenir", "Open Sans", sans-serif;
     font-size: 1rem;
     line-height: 1.6;
     padding: 0;
@@ -80,7 +79,7 @@
     /* color: rgba(0, 0, 0, 0.84); */
     /* background: #FFEA00; */
     /* border-radius: 8px; */
-    transition: all .2s ease-in-out;
+    transition: all 0.2s ease-in-out;
     box-shadow: 0 2px 0 #2b2b2b;
 }
 
@@ -122,7 +121,7 @@
 }
 .date {
     display: block;
-    font-family: 'Avenir';
+    font-family: "Avenir";
     font-size: 0.8rem;
     color: rgba(0, 0, 0, 0.58);
     /* margin: 0.3rem 0; */
@@ -178,9 +177,9 @@
 }
 @media (max-width: 500px) {
     .post__title {
-      font-size: 1.6rem;
+        font-size: 1.6rem;
     }
-  }
+}
 
 .post__content-wrapper {
     margin: 3.2rem 0 5rem;
@@ -206,10 +205,10 @@
     /* box-shadow: #1c2437 0px -0.5px 0px inset; */
     /* color: rgba(0, 0, 0, 0.28) */
 
-    box-shadow: inset 0px -0.5px 0px rgba(0,0,0,.3);
+    box-shadow: inset 0px -0.5px 0px rgba(0, 0, 0, 0.3);
     -webkit-appearance: none;
-    -webkit-box-shadow: inset 0px -1px 0px rgba(0,0,0,.3);
-    -moz-box-shadow: inset 0px -1px 0px rgba(0,0,0,.3);
+    -webkit-box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.3);
 }
 
 /* IMG */
@@ -278,7 +277,7 @@
     max-width: 100%;
     font-size: 1rem;
     line-height: 1.4em;
-    background: rgba(0,0,0,.05);
+    background: rgba(0, 0, 0, 0.05);
     /* border-radius: 5px; */
 }
 .post__content pre code {
@@ -287,8 +286,8 @@
 .post__content code {
     padding: 0 5px 2px;
     font-size: 1rem;
-    font-weight: 400!important;
-    background: rgba(0,0,0,.05);
+    font-weight: 400 !important;
+    background: rgba(0, 0, 0, 0.05);
     border-radius: 3px;
 }
 
@@ -307,7 +306,7 @@
     max-width: 700px;
 }
 .footer__link-label {
-    font-family: 'Avenir', 'Open Sans', sans-serif;
+    font-family: "Avenir", "Open Sans", sans-serif;
     margin: 0;
     text-transform: uppercase;
     letter-spacing: 0.05em;
@@ -379,7 +378,7 @@
     display: block;
     color: #1c2437;
     width: 100%;
-    transition: color .2s ease-in-out;
+    transition: color 0.2s ease-in-out;
 }
 .pagination__link:hover {
     color: #8a8e99;
@@ -388,18 +387,25 @@
     text-align: right;
 }
 
-
 /* 11. Site Footer
 /* ---------------------------------------------------------- */
 
 .footer {
     padding: 2rem 0;
     color: #8a8e99;
-    font-size: .85rem;
+    font-size: 0.85rem;
     flex: 0 0 auto;
 }
 .footer div,
 .footer a {
     color: #8a8e99;
-    font-family: 'Avenir', 'Open Sans', serif;
+    font-family: "Avenir", "Open Sans", serif;
+}
+
+/* 12. Chek Additions
+/* ---------------------------------------------------------- */
+.footnote-ref {
+    top: -0.5rem;
+    position: relative;
+    font-size: 0.75rem;
 }
