@@ -194,6 +194,9 @@ ul,
 ol,
 dl {
     margin: 0 0 1.3em 0;
+    font-family: din-2014, sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 ol,
