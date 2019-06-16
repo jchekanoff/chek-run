@@ -1,7 +1,7 @@
 {
-    "name": "callisto",
-    "version": "1.2.3",
-    "description": "Minimal personal theme for writers, designers, and creatives",
+    "name": "chek-callisto",
+    "version": "1.2.4",
+    "description": "Minimal personal theme for writers, designers, and creatives, forked from callisto by @jchekanoff.",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,7 +24,7 @@
             "Personal Blogs"
         ]
     },
-    "license": "ISC",
+    "license": "MIT",
     "config": {
         "posts_per_page": 10
     }
