@@ -121,6 +121,9 @@
 .card__desc a {
     color: rgba(0, 0, 0, 0.6);
     /* font-family: 'Avenir'; */
+    font-family: din-2014, sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 .date {
     display: block;
