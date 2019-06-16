@@ -50,7 +50,10 @@
 .header__title a {
     color: #1c2437;
     /* font-weight: bold; */
-    font-family: "Source Serif Pro", serif;
+    /* font-family: "Source Serif Pro", serif; */
+    font-family: dinosaur, sans-serif;
+    font-weight: 700;
+    font-style: normal;
     /* text-transform: uppercase; */
     /* letter-spacing: 0.02rem; */
 }
@@ -62,7 +65,7 @@
 }
 .header__link {
     margin-left: 2.1rem;
-    font-family: "Avenir", "Open Sans", sans-serif;
+    /* font-family: "Avenir", "Open Sans", sans-serif; */
     font-size: 1rem;
     line-height: 1.6;
     padding: 0;
