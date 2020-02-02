@@ -176,10 +176,7 @@ a {
     /* color: #0080ff; */
     color: rgba(0, 0, 0, 0.84);
 }
-a:hover {
-    /* color: #03a6ff; */
-    text-decoration: underline;
-}
+
 
 audio,
 canvas,
