@@ -15,13 +15,10 @@
     {{!-- Adobe Fonts --}}
     <link rel="stylesheet" href="https://use.typekit.net/fgp3ggc.css">
 
-    {{!-- Styles'n'Scripts --}}
+    {{!-- Styles and Scripts --}}
     <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
     <link rel="stylesheet" type="text/css" href="{{asset "css/global.css"}}" />
     {{!-- <link rel="stylesheet" type="text/css" href="{{asset "fonts/charter/stylesheet.css"}}" /> --}}
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
-    {{!-- <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700" rel="stylesheet"> --}}
-    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,700" rel="stylesheet">
 
     {{!-- This tag outputs SEO meta+structured data and other important settings --}}
     {{ghost_head}}
@@ -51,7 +48,7 @@
 
     {{!-- jQuery + Fitvids, which makes all video embeds responsive --}}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script type="text/javascript" src="{{asset "built/jquery.fitvids.js"}}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fitvids/1.2.0/jquery.fitvids.min.js" integrity="sha256-nA828blBCdUSSdI8jpciOZsf72IGt1eBcdx1ioEfa8o=" crossorigin="anonymous"></script>
 
     {{!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. --}}
     {{{block "scripts"}}}

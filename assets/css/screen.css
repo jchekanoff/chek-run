@@ -44,12 +44,12 @@
 }
 .header__title {
     font-size: 1.2rem;
-    font-weight: bold;
+    font-weight: 700;
     margin: 0;
 }
 .header__title a {
     color: #1c2437;
-    /* font-weight: bold; */
+    /* font-weight: 700; */
     /* font-family: "Source Serif Pro", serif; */
     font-family: dinosaur, sans-serif;
     font-weight: 700;
@@ -105,7 +105,7 @@
 }
 .card__title {
     font-size: 1.48rem;
-    font-weight: bold;
+    font-weight: 700;
     margin: 0;
 }
 .card__title a {
@@ -121,7 +121,7 @@
 .card__desc a {
     color: rgba(0, 0, 0, 0.6);
     /* font-family: 'Avenir'; */
-    font-family: din-2014, sans-serif;
+    font-family: dinosaur, sans-serif;
     font-weight: 300;
     font-style: normal;
 }
@@ -178,7 +178,7 @@
 }
 .post__title {
     font-size: 2.4rem;
-    font-weight: bold;
+    font-weight: 700;
     margin: 0;
 }
 @media (max-width: 500px) {
@@ -312,7 +312,7 @@
     max-width: 700px;
 }
 .footer__link-label {
-    font-family: "Avenir", "Open Sans", sans-serif;
+    font-family: dinosaur, sans-serif;
     margin: 0;
     text-transform: uppercase;
     letter-spacing: 0.05em;
@@ -405,7 +405,7 @@
 .footer div,
 .footer a {
     color: #8a8e99;
-    font-family: "Avenir", "Open Sans", serif;
+    font-family: dinosaur, "Open Sans", sans-serif;
 }
 
 /* 12. Chek Additions

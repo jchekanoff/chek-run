@@ -103,7 +103,7 @@ video {
     /* font-family: 'Avenir', 'Open Sans', sans-serif; */
     /* font-family: 'Charter', 'Source Serif Pro', serif; */
     font-family: dinosaur, sans-serif;
-    font-weight: normal;
+    font-weight: 300;
     font-style: normal;
 }
 /* HTML5 display-role reset for older browsers */
@@ -144,7 +144,7 @@ table {
 strong,
 b {
     /* font-family: 'charterbold'; */
-    font-weight: bold;
+    font-weight: 700;
 }
 em,
 i {
@@ -195,7 +195,7 @@ ul,
 ol,
 dl {
     margin: 0 0 1.3em 0;
-    font-family: din-2014, sans-serif;
+    font-family: dinosaur, sans-serif;
     font-weight: 300;
     font-style: normal;
 }
@@ -210,7 +210,7 @@ blockquote {
     padding: 0 1.5em;
     box-sizing: border-box;
     border-left: 1px solid rgba(0, 0, 0, 0.18);
-    font-weight: normal;
+    font-weight: 300;
 }
 
 h1,
@@ -287,14 +287,14 @@ table {
 }
 
 td {
-  font-weight: normal;
+  font-weight: 300;
 }
 
 thead td {
-  font-weight: bold;
+  font-weight: 700;
   border-bottom: 1px solid rgba(0, 0, 0, 0.18);
 }
 
 li {
-  font-weight: normal;
+  font-weight: 300;
 }
