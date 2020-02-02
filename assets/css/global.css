@@ -103,7 +103,7 @@ video {
     /* font-family: 'Avenir', 'Open Sans', sans-serif; */
     /* font-family: 'Charter', 'Source Serif Pro', serif; */
     font-family: dinosaur, sans-serif;
-    font-weight: 700;
+    font-weight: normal;
     font-style: normal;
 }
 /* HTML5 display-role reset for older browsers */
@@ -178,6 +178,7 @@ a {
 }
 a:hover {
     /* color: #03a6ff; */
+    text-decoration: underline;
 }
 
 audio,
@@ -311,4 +312,13 @@ body {
         font-size: 1.14rem;
         line-height: 1.54;
     }
+}
+
+thead {
+  font-weight: bold;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.18);
+}
+
+table {
+  margin: 0 0 1.3em 0;
 }
