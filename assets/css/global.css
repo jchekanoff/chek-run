@@ -220,11 +220,21 @@ h6 {
     text-rendering: optimizeLegibility;
     line-height: 1.25;
     margin: 1.1rem 0 0.9rem 0;
-    font-weight: 600;
+    font-weight: 700;
+    font-family: dinosaur, sans-serif;
     /* line-height: 1.15; */
     /* font-weight: 600; */
     /* font-family: 'charterbold'; */
     /* font-family: 'Avenir'; */
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  font-family: dinosaur, sans-serif;
 }
 
 h1 {
