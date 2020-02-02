@@ -49,28 +49,21 @@
 }
 .header__title a {
     color: #1c2437;
-    /* font-weight: 700; */
-    /* font-family: "Source Serif Pro", serif; */
-    font-family: din-2014, sans-serif;
+    font-family: dinosaur, sans-serif;
     font-weight: 700;
     font-style: normal;
-    /* text-transform: uppercase; */
-    /* letter-spacing: 0.02rem; */
 }
 .header__nav {
     display: flex;
     margin-left: auto;
-    /* justify-content: space-between; */
     width: auto;
 }
 .header__link {
     margin-left: 2.1rem;
-    /* font-family: "Avenir", "Open Sans", sans-serif; */
     font-size: 1rem;
     line-height: 1.6;
     padding: 0;
     color: rgba(0, 0, 0, 0.7);
-    /* transition: background .2s ease-in-out; */
 }
 @media (max-width: 500px) {
     .header__link {
@@ -109,9 +102,8 @@
     margin: 0;
 }
 .card__title a {
-    /* font-family: 'Avenir'; */
-    /* font-weight: 900; */
     color: rgba(0, 0, 0, 0.8);
+    font-weight: 700;
 }
 .card__desc {
     margin: 0.3rem 0 0.4em;
@@ -120,7 +112,6 @@
 }
 .card__desc a {
     color: rgba(0, 0, 0, 0.6);
-    /* font-family: 'Avenir'; */
     font-family: dinosaur, sans-serif;
     font-weight: 300;
     font-style: normal;
