@@ -235,6 +235,7 @@ h4 a,
 h5 a,
 h6 a {
   font-family: dinosaur, sans-serif;
+  font-weight: bold;
 }
 
 h1 {
